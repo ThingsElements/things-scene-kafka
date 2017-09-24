@@ -104,7 +104,8 @@ export default class Kafka extends RectPath(Shape) {
     this._client = client;
   }
 
-  disposed() {
+  dispose() {
+    super.dispose();
     this._client && this._client.disconnect();
     delete this._client;
   }
