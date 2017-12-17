@@ -1,8 +1,9 @@
 {
-  "name": "things-scene-kafka",
+  "name": "@things-elements/things-scene-kafka",
+  "flat": true,
   "version": "0.1.0",
   "description": "An element providing a starting point for your own reusable Polymer elements.",
-  "main": "index.js",
+  "main": "things-scene-kafka-min.js",
   "directories": {
     "test": "test"
   },
@@ -40,6 +41,7 @@
     "node-canvas": "Automattic/node-canvas"
   },
   "dependencies": {
-    "kafka-rest": "0.0.5"
+    "kafka-rest": "0.0.5",
+    "@hatiolab/things-scene": "^2.2.36"
   }
 }
