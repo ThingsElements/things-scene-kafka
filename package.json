@@ -1,6 +1,6 @@
 {
   "name": "@things-elements/things-scene-kafka",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An element providing a starting point for your own reusable Polymer elements.",
   "main": "things-scene-kafka-min.js",
   "directories": {
